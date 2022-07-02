@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pl2"
+    android:gravity="center"
+    tools:context=".tiger">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-40dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tig1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:fontFamily="@font/baloo"
+                android:text="TIGER"
+                android:textAlignment="center"
+                android:textColor="#1E1E1E"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:paddingBottom="5dp"
+                android:text="Uttarakhand is land to a number of Tigers in the country. Probably having the 2nd highest number of Tigers in Uttarakhand, there are some very popular Tiger Reserves in Uttarakhand. It is estimated that there is an approx number of 250 to 300 tigers in all the Tiger Reserves of Uttarakhand.The best time to visit the Uttarakhand Tiger Reserves is all years round but the monsoon tends to get a bit troublesome. Currently Uttarakhand have 3 active Tiger reserves and 2 more will be open soon named Nandhaur Wildlife Sanctuary and Surai range of Terai East. "
+                android:textAlignment="textStart"
+                android:textColor="#1E1E1E"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginRight="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/btnb"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="KNOW MORE"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
